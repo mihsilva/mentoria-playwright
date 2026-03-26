@@ -23,3 +23,16 @@ Este projeto contém a automação de testes para a API do **Spring PetClinic**,
 Navegue até a pasta do projeto Java e execute o arquivo `.jar`:
 ```bash
 java -jar spring-petclinic-rest-4.0.2.jar```
+
+### 3. Executar os Testes de API
+Em um novo terminal, na raiz do projeto `petclinic-playwright`, execute:
+```bash
+npx playwright test
+
+## 📋 Plano de Testes (Checklist)
+- [x] Listar todos os proprietários (Owners) - **Cenário Positivo**
+- [x] Buscar proprietário por ID inexistente (404) - **Cenário Negativo**
+- [ ] Criar um novo proprietário (POST) - *Próximo passo*
+
+---
+✨ *Projeto focado em boas práticas de QA, versionamento com Git e documentação clara.*
